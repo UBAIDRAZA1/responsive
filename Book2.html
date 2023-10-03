@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book2</title>
+
+    
+     <!-- Include Bootstrap CSS -->
+     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  
+
+    <!--bootstrap se css copy kya he-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <style type="text/css">
+       
+    body {
+        margin: 0px;
+        background-color: rgb(241, 231, 231);
+        font-family: Arial, sans-serif;
+    }
+    .container1 {
+        background-color: rgb(17, 9, 126);
+    }
+    .header {
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-bottom: 0px;
+        padding-top: 2px;
+        text-align: center;
+    }
+    
+    /* "بِسْمِ اللہِ الرَّحْمٰنِ الرَّحِیْمِ" عنوان کے <h3> انداز کو بغیر کوئی بارڈر ہٹا دیں */
+    .header h3 {
+        border-bottom: none;
+    }
+    
+        
+  /* Navbar ka background color blue karna */
+  .navbar-light.bg-light {
+    background-color: rgb(17, 9, 126) !important;
+  }
+
+  /* Navbar ke text color white karna */
+  .navbar-light .navbar-nav .nav-link {
+    color: rgb(241, 231, 231) !important;
+  }
+
+  /* 'Ubaid Raza' text ko white karna */
+  .navbar-light .navbar-brand {
+    color: white !important;
+  }
+
+ 
+
+  /* Dropdown toggle button (menu button) ka text color white karna */
+  .navbar-light .navbar-toggler-icon {
+    background-color: white !important;
+  }
+
+ 
+
+  /* Dropdown menu ke text color white karna */
+  .navbar-light .navbar-nav .dropdown-menu .dropdown-item {
+    color: white !important;
+  }
+
+
+
+  /* Dropdown menu ka background color blue karna */
+  .navbar-light .navbar-nav .dropdown-menu {
+    background-color: rgb(142, 142, 142) !important;
+  }
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+        .navbar ul {
+            list-style-type: none;
+            padding: 0;
+            
+            text-align: center;
+        }
+        .navbar ul li {
+            display: inline-block;
+            color: white;
+            font-size: 15px;
+            margin:  10px;
+        }
+        .center {
+            text-align: center;
+        }
+        .center img {
+            max-width: 100%;
+            height: auto;
+        }
+        h1, h2,h3, h5, h6 {
+            border-bottom: 3px solid #000;
+            padding-bottom: 5px;
+            display: inline-block;
+            color: rgb(11, 6, 81);
+        }
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .col-lg-4 {
+            flex: 0 0 calc(33.33% - 20px);
+            margin: 10px;
+        }
+        .col-lg-4 a {
+            text-decoration: none;
+            color: rgb(11, 6, 81);
+        }
+
+
+        footer {
+    background-color:rgb(17, 9, 126);
+	color: #fff;
+    text-align: center;
+    padding: 8px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container1">
+        <div class="header"> 
+            <h3 style="color:white;"> بِسْمِ اللہِ الرَّحْمٰنِ الرَّحِیْمِ</h3>
+        </div>
+    </div>
+    
+
+
+    <div class="center">
+        <div>
+            <img src="https://kanz-ul-madaris.org/img/logo.png" alt="Image" width="29%"/>
+            <img src="https://raw.githubusercontent.com/UBAIDRAZA1/Book/main/Logo.png%20dawate%20islami.png" align="left" width="9%" height="9%">
+            <img src="https://raw.githubusercontent.com/UBAIDRAZA1/Book/main/logo.png%20kanzul%20madaris.png" align="right" width="12%" height="12%">
+        </div>
+    </div> <br />
+
+
+
+
+
+    
+    <!--ye bootstrap ka he-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><i>Ubaid Raza</i></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 Book
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="https://ubaidraza1.github.io/responsive/Book">Darja Oola (1st Year)</a></li>
+                  <li><a class="dropdown-item" href="#">Darja Sania (2nd Year)</a></li>
+                  
+                  <li><a class="dropdown-item" href="#">Darja Salisa (3rd Year)</a></li>
+                  <li><a class="dropdown-item" href="#">Darja Salisa (4th Year)</a></li>
+                </ul>
+
+
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                   Sharah
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Darja Oola (1st Year)</a></li>
+                    <li><a class="dropdown-item" href="#">Darja Sania (2nd Year)</a></li>
+                    
+                    <li><a class="dropdown-item" href="#">Darja Salisa (3rd Year)</a></li>
+                    <li><a class="dropdown-item" href="#">Darja Salisa (4th Year)</a></li>
+                  </ul>
+
+
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     Notes
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Darja Oola (1st Year)</a></li>
+                      <li><a class="dropdown-item" href="#">Darja Sania (2nd Year)</a></li>
+                      
+                      <li><a class="dropdown-item" href="#">Darja Salisa (3rd Year)</a></li>
+                      <li><a class="dropdown-item" href="#">Darja Salisa (4th Year)</a></li>
+                    </ul>
+
+
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                       Paper
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Darja Oola (1st Year)</a></li>
+                        <li><a class="dropdown-item" href="#">Darja Sania (2nd Year)</a></li>
+                        
+                        <li><a class="dropdown-item" href="#">Darja Salisa (3rd Year)</a></li>
+                        <li><a class="dropdown-item" href="#">Darja Salisa (4th Year)</a></li>
+                      </ul>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+
+                 
+              
+
+             
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      
+
+
+
+
+
+
+    <br /> 
+
+    <style>
+        h1, h2,h3 , h4, h5, h6 {
+            border-bottom: 3px solid #000;
+            padding-bottom: 1px;
+            display: inline-block;
+            color:rgb(11, 6, 81);
+        }
+    </style>
+
+    &nbsp;&nbsp;&nbsp;<h2>Darja Sania (2nd Year)</h2>
+
+    <style>
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .col-lg-4 {
+            flex: 0 0 calc(33.33% - 20px);
+            margin: 10px;
+        }
+        .col-lg-4 a {
+            text-decoration: none;
+            color: rgb(11, 6, 81);
+        }
+    </style>
+
+     
+
+
+
+
+
+
+<!-- ------------------------------------------------Syllabus Drja oola-------------------------------------------------->
+  
+    
+     <div class="container text-center">
+       
+       <div class="row justify-content-center">
+         <div class="col-lg-4 col-md-4 col-sm-6">
+           <div class="position-relative mb-40 text-center">
+             <a class="img-opacity-hover" target="_blank" href="https://drive.google.com/file/d/1QLsdLQ0zgqXXpEKsOUiD_rI_gq4gwvJk/view?usp=drive_link" download>
+               <img src="https://raw.githubusercontent.com/UBAIDRAZA1/Book/main/chcjhjkg%3Bkh%3Bf.jpg" alt="Hidaya tul Nahw" class="img-fluid mb-15 mx-auto d-block" style="height: 250px;">
+             </a>
+                
+             <h6 class="title-medium-dark size-lg mb-none">
+               <a target="_blank" href="https://drive.google.com/file/d/1QLsdLQ0zgqXXpEKsOUiD_rI_gq4gwvJk/view?usp=drive_link" download>Hidaya tul Nahw</a>
+             </h6>
+           </div>
+         </div>
+        
+
+         <div class="col-lg-4 col-md-4 col-sm-6">
+            <div class="position-relative mb-40 text-center">
+               <a class="img-opacity-hover" target="_blank" href="https://drive.google.com/file/d/1fSjHSoImVUFq-vmcVXD38Y9tvizm5g4S/view?usp=drive_link" download>
+                   <img src="https://raw.githubusercontent.com/UBAIDRAZA1/Book/main/jyjdghjg.png" alt="Noor ul Izah" class="img-fluid mb-15" style="height: 250px;">
+               </a>
+               <br />
+               <h6 class="title-medium-dark size-lg mb-none">
+                  <a target="_blank" href="https://drive.google.com/file/d/1fSjHSoImVUFq-vmcVXD38Y9tvizm5g4S/view?usp=drive_link" download>Noor ul Izahf</a>
+               </h6>
+            </div>
+         </div>
+     
+
+
+         <div class="col-lg-4 col-md-4 col-sm-6">
+            <div class="position-relative mb-40 text-center">
+               <a class="img-opacity-hover" target="_blank" href="https://drive.google.com/file/d/1mRUOI4xU6PDChTd4FU3LxUsRa8XJBzhv/view?usp=drive_link" download>
+                   <img src="https://raw.githubusercontent.com/UBAIDRAZA1/Book/main/GoOnlineTools-image-downloader__1_-removebg-preview.png" alt="Sharah Miatu Amil" class="img-fluid mb-15" style="height: 250px;">
+               </a>
+               <br />
+               <h6 class="title-medium-dark size-lg mb-none">
+                  <a target="_blank" href="https://drive.google.com/file/d/1mRUOI4xU6PDChTd4FU3LxUsRa8XJBzhv/view?usp=drive_link" download>Sharah Miatu Amil</a>
+               </h6>
+            </div>
+         </div>
+
+
+
+
+         <div class="col-lg-4 col-md-4 col-sm-6">
+            <div class="position-relative mb-40 text-center">
+               <a class="img-opacity-hover" target="_blank" href="https://drive.google.com/file/d/19ZZjXs9d9dAEI_f1H7_-znohf8LErbnv/view?usp=drive_link" download>
+                   <img src="https://raw.githubusercontent.com/UBAIDRAZA1/Book/main/dfhrjdtuh.jpg" alt="Nisab ul Surf" class="img-fluid mb-15" style="height: 250px;">
+               </a>
+               <br />
+               <h6 class="title-medium-dark size-lg mb-none">
+                  <a target="_blank" href="https://drive.google.com/file/d/19ZZjXs9d9dAEI_f1H7_-znohf8LErbnv/view?usp=drive_link" download>Nisab ul Surf</a>
+               </h6>
+            </div>
+         </div>
+     
+
+
+         <div class="col-lg-4 col-md-4 col-sm-6">
+            <div class="position-relative mb-40 text-center">
+               <a class="img-opacity-hover" target="_blank" href="https://drive.google.com/file/d/1fF5Msn_swpB_TIcMiqfiZ6xvZ55AOUGQ/view?usp=drive_link" download>
+                   <img src="https://raw.githubusercontent.com/UBAIDRAZA1/Book/main/gpoyogkhcgm.png" alt="Insha ul Arabia" class="img-fluid mb-15" style="height: 250px;">
+               </a>
+               <br />
+               <h6 class="title-medium-dark size-lg mb-none">
+                  <a target="_blank" href="https://drive.google.com/file/d/1fF5Msn_swpB_TIcMiqfiZ6xvZ55AOUGQ/view?usp=drive_link" download>Insha ul Arabia</a>
+               </h6>
+            </div>
+         </div>
+
+
+
+
+       </div>
+     </div>
+
+
+     <!-- ------------------------------------------------Books-------------------------------------------------->
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+     <!-- Include Bootstrap JS -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+
+
+
+
+
+<footer>
+    <b><p>&copy; 2023 Kanzul Madaris Notes Created by UBAID RAZA</p></b>
+</footer>
+
+
+
+
+
+
+
+
+
+    <!--bootstrap se separate copy kya he-->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
+
